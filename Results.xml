@@ -1,0 +1,512 @@
+<classes>
+<class>
+                <name>pacman.PacmanGame$1</name>
+                <wmc>2</wmc>
+                <dit>2</dit>
+                <noc>0</noc>
+                <cbo>2</cbo>
+                <rfc>6</rfc>
+                <lcom>0</lcom>
+                <ca>1</ca>
+                <ce>2</ce>
+                <npm>1</npm>
+                <lcom3>0.0</lcom3>
+                <loc>24</loc>
+                <dam>0.0</dam>
+                <moa>1</moa>
+                <mfa>0.75</mfa>
+                <cam>0.6666666666666666</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>10.5</amc>
+                <cc>
+                        <method name="void _init_(pacman.PacmanGame arg0)">1</method>
+                        <method name="public void keyPressed(java.awt.event.KeyEvent arg0)">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>pacman.PacmanGame</name>
+                <wmc>22</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>9</cbo>
+                <rfc>60</rfc>
+                <lcom>73</lcom>
+                <ca>2</ca>
+                <ce>8</ce>
+                <npm>18</npm>
+                <lcom3>0.6904761904761905</lcom3>
+                <loc>562</loc>
+                <dam>0.5</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.4696969696969697</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>24.181818181818183</amc>
+                <cc>
+                        <method name="private void resetMaps(int arg0, int arg1)">1</method>
+                        <method name="public boolean noMoreGomes()">4</method>
+                        <method name="private void resetMaps()">1</method>
+                        <method name="public void updateAll()">2</method>
+                        <method name="public void slowdownGhosts()">2</method>
+                        <method name="public void manageGhosts()">2</method>
+                        <method name="private void setGoneMatrixCell(int arg0, int arg1, int arg2)">1</method>
+                        <method name="public void play()">4</method>
+                        <method name="public void congrats(String arg0)">1</method>
+                        <method name="private int getGoneMatrixCell(int arg0, int arg1)">1</method>
+                        <method name="public void moveGhosts()">2</method>
+                        <method name="public void applyRules(int arg0, int arg1)">7</method>
+                        <method name="public void updateGoneMatrix(int arg0, int arg1)">1</method>
+                        <method name="public void ask2Play(String arg0)">3</method>
+                        <method name="public void computeScore(int arg0)">6</method>
+                        <method name="public void sleep(int arg0)">1</method>
+                        <method name="public void totalReset()">1</method>
+                        <method name="public void _init_()">2</method>
+                        <method name="public void printScore()">1</method>
+                        <method name="public void partialReset()">2</method>
+                        <method name="public boolean noMoreLife()">2</method>
+                        <method name="public void quit()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>pacman.App</name>
+                <wmc>2</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>1</cbo>
+                <rfc>5</rfc>
+                <lcom>1</lcom>
+                <ca>0</ca>
+                <ce>1</ce>
+                <npm>2</npm>
+                <lcom3>2.0</lcom3>
+                <loc>12</loc>
+                <dam>0.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.5</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>5.0</amc>
+                <cc>
+                        <method name="public static void main(String[] arg0)">1</method>
+                        <method name="public void _init_()">1</method>
+                </cc>
+        </class>
+<class>
+                <name>Constantes.Constante</name>
+                <wmc>4</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>1</cbo>
+                <rfc>8</rfc>
+                <lcom>2</lcom>
+                <ca>0</ca>
+                <ce>1</ce>
+                <npm>3</npm>
+                <lcom3>1.0</lcom3>
+                <loc>3380</loc>
+                <dam>0.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.4444444444444444</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>838.75</amc>
+                <cc>
+                        <method name="public static int[][] buildGomeMap(int arg0)">3</method>
+                        <method name="public static void addSpecialGomes(int arg0, int[][] arg1)">2</method>
+                        <method name="static void _clinit_()">1</method>
+                        <method name="public void _init_()">1</method>
+                </cc>
+        </class>
+ <class>
+                <name>Event.ArrowListener</name>
+                <wmc>1</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>0</cbo>
+                <rfc>2</rfc>
+                <lcom>0</lcom>
+                <ca>0</ca>
+                <ce>0</ce>
+                <npm>1</npm>
+                <lcom3>2.0</lcom3>
+                <loc>4</loc>
+                <dam>0.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>1.0</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>3.0</amc>
+                <cc>
+                        <method name="public void _init_()">1</method>
+                </cc>
+        </class>
+<class>
+                <name>Gui.Shapes</name>
+                <wmc>13</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>2</cbo>
+                <rfc>14</rfc>
+                <lcom>0</lcom>
+                <ca>1</ca>
+                <ce>1</ce>
+                <npm>13</npm>
+                <lcom3>0.5833333333333334</lcom3>
+                <loc>243</loc>
+                <dam>1.0</dam>
+                <moa>1</moa>
+                <mfa>0.0</mfa>
+                <cam>0.46153846153846156</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>17.076923076923077</amc>
+                <cc>
+                        <method name="public void _init_(Gui.Lines arg0, int arg1, int arg2, int arg3, int arg4, int arg5)">1</method>
+                        <method name="public int getNbMax()">1</method>
+                        <method name="public int getDilation()">1</method>
+                        <method name="public int getXplus()">1</method>
+                        <method name="public void _init_(Gui.Lines arg0, int arg1, int arg2, int arg3, int arg4, int arg5, int arg6, boolean arg7)">1</method>
+                        <method name="public void _init_(Gui.Lines arg0, int arg1, int arg2, int arg3, int arg4)">1</method>
+                        <method name="public int getYplus()">1</method>
+                        <method name="public int getInBetween()">1</method>
+                        <method name="public Gui.Lines getLines()">1</method>
+                        <method name="public boolean isNormalDilation()">1</method>
+                        <method name="public int getNbMin()">1</method>
+                        <method name="public void _init_(Gui.Lines arg0, int arg1, int arg2, int arg3)">1</method>
+                        <method name="public void _init_(Gui.Lines arg0, int arg1, int arg2)">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Transformers</name>
+                <wmc>4</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>3</cbo>
+                <rfc>13</rfc>
+                <lcom>0</lcom>
+                <ca>1</ca>
+                <ce>3</ce>
+                <npm>4</npm>
+                <lcom3>0.5833333333333334</lcom3>
+                <loc>560</loc>
+                <dam>1.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>1.0</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>138.0</amc>
+                <cc>
+                        <method name="public void switchVersion()">1</method>
+                        <method name="public java.util.List getMapping()">1</method>
+                        <method name="public java.util.List getVersion()">2</method>
+                        <method name="public void _init_()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Maze</name>
+                <wmc>7</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>6</cbo>
+                <rfc>36</rfc>
+                <lcom>0</lcom>
+                <ca>0</ca>
+                <ce>6</ce>
+                <npm>7</npm>
+                <lcom3>0.75</lcom3>
+                <loc>165</loc>
+                <dam>1.0</dam>
+                <moa>1</moa>
+                <mfa>0.0</mfa>
+                <cam>0.40476190476190477</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>22.0</amc>
+                <cc>
+                        <method name="public void _init_(int[][] arg0, int[][] arg1, java.awt.event.KeyListener arg2, PacObject.PacMan arg3, PacObject.PacGhost[] arg4)">1</method>
+                        <method name="public void show(PacObject.PacMan arg0, int arg1, int arg2)">1</method>
+                        <method name="public void setPacmanFeatures(PacObject.PacMan arg0)">1</method>
+                        <method name="public void updateMaps(int[][] arg0, int[][] arg1)">1</method>
+                        <method name="public void setGhostsPoint(PacObject.PacGhost[] arg0)">2</method>
+                        <method name="public void sleep(int arg0)">1</method>
+                        <method name="public void close()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Transformers$Mapper</name>
+                <wmc>4</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>1</cbo>
+                <rfc>6</rfc>
+                <lcom>0</lcom>
+                <ca>1</ca>
+                <ce>1</ce>
+                <npm>4</npm>
+                <lcom3>0.75</lcom3>
+                <loc>40</loc>
+                <dam>0.0</dam>
+                <moa>1</moa>
+                <mfa>0.0</mfa>
+                <cam>0.4</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>8.0</amc>
+                <cc>
+                        <method name="public int getAdd()">1</method>
+                        <method name="public void _init_(Gui.Transformers arg0, String arg1, java.util.List arg2, int arg3)">1</method>
+                        <method name="public String getLetter()">1</method>
+                        <method name="public java.util.List getShapes()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Drawer</name>
+                <wmc>9</wmc>
+                <dit>5</dit>
+                <noc>0</noc>
+                <cbo>5</cbo>
+                <rfc>24</rfc>
+                <lcom>22</lcom>
+                <ca>1</ca>
+                <ce>4</ce>
+                <npm>9</npm>
+                <lcom3>0.6964285714285714</lcom3>
+                <loc>487</loc>
+                <dam>1.0</dam>
+                <moa>0</moa>
+                <mfa>0.9885550786838341</mfa>
+                <cam>0.3333333333333333</cam>
+                <ic>1</ic>
+                <cbm>1</cbm>
+                <amc>52.333333333333336</amc>
+                <cc>
+                        <method name="public void drawPacman(java.awt.Graphics arg0)">4</method>
+                        <method name="public void drawPacghost(java.awt.Graphics arg0, int arg1)">1</method>
+                        <method name="public int getBlockSize()">1</method>
+                        <method name="public void setPacghostPoint(int arg0, java.awt.Point arg1, java.awt.Color arg2)">1</method>
+                        <method name="public void paintComponent(java.awt.Graphics arg0)">2</method>
+                        <method name="public void drawMap(java.awt.Graphics arg0, int arg1)">6</method>
+                        <method name="public void setPacmanFeatures(PacObject.PacMan arg0)">1</method>
+                        <method name="public void updateMaps(int[][] arg0, int[][] arg1)">1</method>
+                        <method name="public void _init_(int[][] arg0, int[][] arg1)">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Block</name>
+                <wmc>6</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>0</cbo>
+                <rfc>9</rfc>
+                <lcom>0</lcom>
+                <ca>0</ca>
+                <ce>0</ce>
+                <npm>6</npm>
+                <lcom3>0.5333333333333333</lcom3>
+                <loc>51</loc>
+                <dam>1.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.5</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>7.0</amc>
+                <cc>
+                        <method name="public void setColor(java.awt.Color arg0)">1</method>
+                        <method name="public void _init_(java.awt.Point arg0, java.awt.Color arg1)">1</method>
+                        <method name="public java.awt.Color getColor()">1</method>
+                        <method name="public void _init_()">1</method>
+                        <method name="public int getSize()">1</method>
+                        <method name="public java.awt.Point getPoint()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Gui.Lines</name>
+                <wmc>5</wmc>
+                <dit>2</dit>
+                <noc>0</noc>
+                <cbo>3</cbo>
+                <rfc>8</rfc>
+                <lcom>6</lcom>
+                <ca>2</ca>
+                <ce>1</ce>
+                <npm>2</npm>
+                <lcom3>0.75</lcom3>
+                <loc>70</loc>
+                <dam>0.2</dam>
+                <moa>5</moa>
+                <mfa>0.8333333333333334</mfa>
+                <cam>0.3333333333333333</cam>
+                <ic>1</ic>
+                <cbm>1</cbm>
+                <amc>12.0</amc>
+                <cc>
+                        <method name="public static Gui.Lines valueOf(String arg0)">1</method>
+                        <method name="private static synthetic Gui.Lines[] $values()">1</method>
+                        <method name="public static Gui.Lines[] values()">1</method>
+                        <method name="static void _clinit_()">1</method>
+                        <method name="private void _init_(String arg0, int arg1)">1</method>
+                </cc>
+        </class>
+<class>
+                <name>Utilities.State</name>
+                <wmc>4</wmc>
+                <dit>2</dit>
+                <noc>0</noc>
+                <cbo>0</cbo>
+                <rfc>7</rfc>
+                <lcom>4</lcom>
+                <ca>0</ca>
+                <ce>0</ce>
+                <npm>2</npm>
+                <lcom3>0.9166666666666666</lcom3>
+                <loc>68</loc>
+                <dam>0.25</dam>
+                <moa>4</moa>
+                <mfa>0.8823529411764706</mfa>
+                <cam>0.4444444444444444</cam>
+                <ic>1</ic>
+                <cbm>1</cbm>
+                <amc>15.0</amc>
+                <cc>
+                        <method name="public static Utilities.State valueOf(String)">1</method>
+                        <method name="static void _clinit_()">1</method>
+                        <method name="private void _init_(String, int)">1</method>
+                        <method name="public static Utilities.State[] values()">1</method>
+                </cc>
+        </class>
+        <class>
+                <name>Utilities.Utils</name>
+                <wmc>6</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>1</cbo>
+                <rfc>9</rfc>
+                <lcom>15</lcom>
+                <ca>0</ca>
+                <ce>1</ce>
+                <npm>6</npm>
+                <lcom3>2.0</lcom3>
+                <loc>204</loc>
+                <dam>0.0</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.26666666666666666</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>33.0</amc>
+                <cc>
+                        <method name="public static int[][] makeGomesForNewMap(int[][] mat, int[][] gom, int cnt, int index, int index1)">9</method>
+                        <method name="public static java.awt.Point clonePoint(java.awt.Point p)">1</method>
+                        <method name="public static java.awt.Dimension cloneDimension(java.awt.Dimension d, int w, int h)">1</method>
+                        <method name="public static int howMuchBaseGomes(int[][] mat)">4</method>
+                        <method name="public void _init_()">1</method>
+                        <method name="public static int[][] clone2DMatrix(int[][] mat)">3</method>
+                </cc>
+        </class>
+        <class>
+                <name>Utilities.Direction</name>
+                <wmc>7</wmc>
+                <dit>2</dit>
+                <noc>0</noc>
+                <cbo>1</cbo>
+                <rfc>11</rfc>
+                <lcom>9</lcom>
+                <ca>0</ca>
+                <ce>1</ce>
+                <npm>5</npm>
+                <lcom3>0.8541666666666666</lcom3>
+                <loc>123</loc>
+                <dam>0.375</dam>
+                <moa>6</moa>
+                <mfa>0.75</mfa>
+                <cam>0.3888888888888889</cam>
+                <ic>1</ic>
+                <cbm>1</cbm>
+                <amc>15.428571428571429</amc>
+                <cc>
+                        <method name="public String toString()">1</method>
+                        <method name="public static Utilities.Direction[] values()">1</method>
+                        <method name="static void _clinit_()">1</method>
+                        <method name="public int getX()">1</method>
+                        <method name="public static Utilities.Direction valueOf(String)">1</method>
+                        <method name="private void _init_(String, int, int x, int y)">1</method>
+                        <method name="public int getY()">1</method>
+                </cc>
+        </class>
+<class>
+                <name>PacObject.AbstractCharacter</name>
+                <wmc>18</wmc>
+                <dit>1</dit>
+                <noc>2</noc>
+                <cbo>5</cbo>
+                <rfc>27</rfc>
+                <lcom>89</lcom>
+                <ca>0</ca>
+                <ce>5</ce>
+                <npm>18</npm>
+                <lcom3>0.9191176470588235</lcom3>
+                <loc>227</loc>
+                <dam>0.875</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.2222222222222222</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>11.166666666666666</amc>
+                <cc>
+                        <method name="public void setColor(java.awt.Color c)">1</method>
+                        <method name="public boolean wraparound(int x, int y)">4</method>
+                        <method name="public int[] getMatrixPosition()">1</method>
+                        <method name="public boolean collision(int index, int x, int y)">5</method>
+                        <method name="public void checkToChangeDirection(int index)">3</method>
+                        <method name="public void back2Start()">1</method>
+                        <method name="public PacObject.AbstractCharacter$Movement getMovement()">1</method>
+                        <method name="public void setMovement(PacObject.AbstractCharacter$Movement m)">1</method>
+                        <method name="public java.awt.Color getColor()">1</method>
+                        <method name="public abstract void manage()">1</method>
+                        <method name="public abstract void move(int)">1</method>
+                        <method name="public boolean checkBounds(int x, int y)">5</method>
+                        <method name="public void setState(Utilities.State s)">1</method>
+                        <method name="public Utilities.State getState()">1</method>
+                        <method name="public void askToChangeDirection(Utilities.Direction d)">1</method>
+                        <method name="public void _init_()">1</method>
+                        <method name="public java.awt.Point getPoint()">1</method>
+                        <method name="public void setPoint(java.awt.Point p)">1</method>
+                </cc>
+        </class>
+<class>
+                <name>PacObject.AbstractCharacter$Movement</name>
+                <wmc>5</wmc>
+                <dit>1</dit>
+                <noc>0</noc>
+                <cbo>2</cbo>
+                <rfc>6</rfc>
+                <lcom>0</lcom>
+                <ca>0</ca>
+                <ce>2</ce>
+                <npm>5</npm>
+                <lcom3>0.6666666666666666</lcom3>
+                <loc>34</loc>
+                <dam>0.6666666666666666</dam>
+                <moa>0</moa>
+                <mfa>0.0</mfa>
+                <cam>0.5333333333333333</cam>
+                <ic>0</ic>
+                <cbm>0</cbm>
+                <amc>5.2</amc>
+                <cc>
+                        <method name="public Utilities.Direction getNext()">1</method>
+                        <method name="public void setNext(Utilities.Direction n)">1</method>
+                        <method name="public void setCurrent(Utilities.Direction c)">1</method>
+                        <method name="public void _init_(PacObject.AbstractCharacter)">1</method>
+                        <method name="public Utilities.Direction getCurrent()">1</method>
+                </cc>
+        </class>
+        </classes>
